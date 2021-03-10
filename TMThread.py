@@ -11,8 +11,8 @@ class TMThread(threading.Thread):
         self.sock = sock
         # self.sock.settimeout(1.5)
         self.list = TList
-        # self.list.addTask("hi", datetime.today(), datetime.today(), "123")  # for Tests
-        # self.list.addTask("hello", datetime.today(), datetime.today(), "Privet")#for Tests
+        #self.list.addTask("hi", datetime.today(), datetime.today(), "123")  # for Tests
+        #self.list.addTask("hello", datetime.today(), datetime.today(), "Privet")#for Tests
         # self.list.addTask("hi2", datetime.today(), datetime.today(), "456")#for Tests
         self.stop_event = threading.Event()
 
